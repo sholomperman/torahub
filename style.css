@@ -12,11 +12,11 @@
 } */
 
 body {
-  background-image: url("./assets/torah-pic-trimd.jpg");
+  background-image: url("./assets/tora\ pic.jpg");
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 1600px 600px;
+  background-size: 1600px 800px;
 }
 .container {
   display: flex;
