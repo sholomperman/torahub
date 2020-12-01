@@ -35,7 +35,7 @@
 .card-con-1 {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .page-head {
@@ -67,15 +67,22 @@
 }
 
 .sp-btn {
-  /* flex-grow: inherit; */
   height: 7%;
   width: 40%;
   background-color: rgb(0, 102, 255);
   border-radius: 5px;
-  position: relative;
-  left: 1px;
-  top: 55px;
+
 }
+
+
+@media (max-width: 730px) {
+  .sp-card {
+    width: 140px;
+  }
+  .card-con-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 @media (max-width: 380px) {
   .body {
